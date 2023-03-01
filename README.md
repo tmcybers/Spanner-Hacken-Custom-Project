@@ -548,6 +548,7 @@ tint2 -c ~/.config/tint2/livia/livia.tint2rc
 * Im using polybar now-days, but i have used tint2 because consumes very few resources[less than polybar] / so your choice is fully your.
     
  
+    ---
   
   
 
@@ -576,7 +577,7 @@ tint2 -c ~/.config/tint2/livia/livia.tint2rc
    * (W) Super-key/Win-key + 4 = Desktop 4
     
     
-
+---
     
     
     
