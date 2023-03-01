@@ -103,7 +103,7 @@ touch autostart
 geany autostart
   
 ```
-### This is like mine is, it like an example, will add more later.
+### Example, will add more later.
   
 ```
 # Launch nitrogen
