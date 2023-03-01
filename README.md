@@ -129,9 +129,11 @@ chmod +x setup.sh
 ```
   
 ### Run setup.sh and select a style
+  
 ``` 
- ./setup.sh
+./setup.sh
 ```
+  
 ```
 [*] Installing Polybar Themes...
 
@@ -176,7 +178,7 @@ bash ~/.config/polybar/launch.sh --hack
 
 [kitty-themes](https://github.com/dexpota/kitty-themes)
   
-**in case that you don't have this archives simply create then***
+**In case that you don't see this / simply create then***
   
 ```
 cd
@@ -185,7 +187,9 @@ cd kitty
 touch kitty.conf
 geany kitty.conf
 ```
+  
 * paste this into kitty.conf 
+  
 ``` 
 include myconf.conf
 ```
@@ -232,7 +236,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 *Once installed we access the oh-my-zsh configuration*
   
 ```
-nano ~/.zshrc
+geany ~/.zshrc
 ```
 
 *A document will open that we must edit by adding the following line*
