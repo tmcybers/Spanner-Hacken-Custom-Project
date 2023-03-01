@@ -197,6 +197,90 @@ touch myconf.conf
    
   
 * Im using DotGov as theme.  
+
+#### Zsh || Powerlevel10k for kitty
+  
+
+**Installl zsh**
+  
+ ```
+sudo apt-get install zsh
+```
+
+**Put ZSH as default shell**
+  
+```
+chsh -s $(which zsh)
+```
+
+**We close and reopen the terminal to verify that ZSH is the default (sometimes the system may have to be restarted)**
+  
+```
+❯ echo $SHELL
+  
+/usr/bin/zsh
+```
+
+#### OH-MY-ZSH
+
+*We execute the following command to download and install oh-my-zsh*
+  
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
+```
+  
+*Once installed we access the oh-my-zsh configuration*
+  
+```
+nano ~/.zshrc
+```
+
+*A document will open that we must edit by adding the following line*
+  
+```
+ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+
+* In this case we add: ZSH_THEME=”powerlevel10k/powerlevel10k”
+
+More themes available for oh-my-zsh in the following link [ohmyzsh-themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+
+
+#### POWERLEVEL10K
+  
+**To install powerlevel10k we must execute the following command**
+  
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k 
+```
+
+**Once we execute it, we close the terminal and open it again and follow the configuration steps that we like the most**
+
+### [!] The installation and configuration has to be done twice, for the user without permissions and for the root user.
+
+#### Plugins
+
+[plugins-list](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
+
+> zsh-syntax-highlighting (It checks which commands are well written or if they exist and also which ones are misspelled or do not exist)
+  
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+``` 
+
+> zsh-autosuggestions (View suggestions and predict the tasks you want to perform based on the most used commands)
+  
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+** Paste this into /.zhsrc**
+```
+plugins=(git
+zsh-syntax-highlighting
+zsh-autosuggestions
+)
+```
   
   
 ## Picom transparency Tun!!!ng 
