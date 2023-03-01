@@ -486,7 +486,7 @@ sudo apt-get install libcairo2-dev libpango1.0-dev libglib2.0-dev libimlib2-dev 
 sudo apt install tint2
 ```
     
-**Start tins on startup echo this/into `autostart`
+**Start tint2 on startup echo this/into `autostart`
     
 ```
 tint2 &
@@ -532,4 +532,11 @@ tint2 -c ~/.config/tint2/livia/livia.tint2rc
   
   
 
-  
+<h4 align="center">☣️ Shortcuts [some of it] ☣️</h4>
+    
+    (W) Superkey/Winkey + t = Kitty
+    (W) Superkey/Winkey + t = Kitty
+    (W) Superkey/Winkey + t = Kitty
+    (W) Superkey/Winkey + t = Kitty
+    (W) Superkey/Winkey + t = Kitty
+    (W) Superkey/Winkey + t = Kitty
