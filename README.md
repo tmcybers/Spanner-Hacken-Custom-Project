@@ -32,6 +32,12 @@
 # ⚒️ My||Hacking||Environment|||Openbox||Based ⚒️
 
 
+# Important #
+  `Constant development and updating`
+
+  `Future changes will be applied both to appearance and to further automate the hacking and development work`
+ 
+
 
 * 🗿 My custom of what y use every day for 💉 hacking and threat hunting 🔫 is based on Debian/Parrot Os ↪️ Openbox tilling window*
 
