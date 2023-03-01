@@ -4,7 +4,7 @@
   <a href="https://github.com/tmcybers/gmailHack"><img src="spannerlogo.png" width="500px" alt="gmailHack"></a>
 </h1>
 
-<h4 align="center">☣️ **Spanner Hacken Machine** ☣️</h4>
+<h4 align="center">☣️ Spanner Hacken Machine ☣️</h4>
 
 ---
 
