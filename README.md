@@ -6,4 +6,4 @@
 
 ### Openbox is the most lightweight tilling window [openbox offers you the freedom to work with shortcuts or mouse, your choice is your choice}
 
-## follow the steps verbatim
+
