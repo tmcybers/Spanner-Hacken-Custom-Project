@@ -40,7 +40,7 @@
 ### 🕶️ Openbox is the most lightweight tilling window [openbox offers you the freedom 🕶️ to work with shortcuts or mouse, your choice is your choice 🏆
 
   
-              ☢️ `Never automate the installation of this type of customs can be broken depending on your system dependencies` ☢️
+              ☢️ Never automate these types of customs they are easily broken according to dependencies and system requirements ☢️
   
   
   
