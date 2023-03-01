@@ -23,7 +23,7 @@
 ![2023-03-01_12-31](https://user-images.githubusercontent.com/97669969/222127630-ce5bda78-0b41-4f32-8edc-d677e2b7a5d8.png)
 ---
 
-# ⚒️⚒️⚒️⚒️ My||Hacking||Environment|||Openbox||Based ⚒️⚒️⚒️⚒️
+# ⚒️ My||Hacking||Environment|||Openbox||Based ⚒️
 
 
 
