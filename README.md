@@ -45,6 +45,7 @@ sudo apt install bat
 sudo apt install kitty
 sudo apt install rofi
 sudo apt install mpd
+sudo apt install flameshot
 
 ```
   
@@ -176,6 +177,17 @@ touch myconf.conf
 * Im using DotGov as theme.  
   
   
+## Picom transparency Tun!!!ng 
+
+```
+cd .config
+mkdir picom
+touch picom.conf
+geany picom.conf
+```
+* Into picom.conf just paste my conf, and modelling to your liking.
+  
+  
   
   
 ## Mosaic windows tilling [CTRL+1,2,3,4,45,5,6,7,8,9] 
@@ -292,6 +304,35 @@ touch myconf.conf
 ## How does this work? 
 >>> Hold down the super key or Win key in windows is usually called like this, and with the right and left arrows play with the window to your liking
   
+
+  
+## Custom Shortcuts
+  
+* rc.xml
+  
+* Example
+  
+```
+     <keybind key="W-t">
+      <action name="Execute">
+        <command>kitty</command>
+      </action>
+    </keybind>
+```
+* Im saying to openbox that i will open kitty with Superkey/Winkey Windows and  key t [ custom as your choice]
+    
+* Im using custom shortcuts to open every applicaccion, and tilling it.
+    
+ #### For the Flameshot shortcut Is Having an issue. But calling `flameshot gui` like command it shows.  
+
+ * Flameshot is the best tool for reports/write ups.  
+    
+
+    
+
+    
+    
+ 
   
   
 
