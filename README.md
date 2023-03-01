@@ -1,8 +1,5 @@
 ☣️ **Spanner Machine** ☣️ 
 
-
-# ⚒️ Hacking Environment Based on Openbox ⚒️
-
 ---
 
 <p align="center">
@@ -21,6 +18,14 @@
 <a href="https://ko-fi.com/tmcyber"><img src="https://img.shields.io/badge/Support%20me-Ko--Fi-brightgreen?style=plastic&logo=ko-fi">
 
 </p>
+  
+---
+![2023-03-01_12-31](https://user-images.githubusercontent.com/97669969/222127630-ce5bda78-0b41-4f32-8edc-d677e2b7a5d8.png)
+---
+
+# ⚒️ My Hacking Environment Openbox||Based ⚒️
+
+
 
 * 🗿 My custom of what y use every day for 💉 hacking and threat hunting 🔫 is based on Debian/Parrot Os ↪️ Openbox tilling window*
 
@@ -67,7 +72,7 @@ sudo apt install nitrogen
   
 ```
   
-## Manger for Menu/Custom Themes and Icons
+## Manager for Menu/Custom Themes and Icons
   
 ```
 sudo apt install lxappearance lxappearance-obconf
@@ -346,9 +351,81 @@ geany picom.conf
  * Flameshot is the best tool for reports/write ups.  
     
 
-    
 
     
+    
+# Opcional Things for TUN!!nG!
+    
+## Conky 
+    
+```
+sudo apt install conky
+```
+
+#### Conky Themes
+
+[conky-themes](https://github.com/addy-dclxvi/conky-theme-collections)
+
+**Start conky on startup echo this into `autostart`
+    
+```
+conky &
+    
+```
+    
+
+### Panel tint2
+`Some dependencies in case you miss something`
+    
+```
+sudo apt-get install libcairo2-dev libpango1.0-dev libglib2.0-dev libimlib2-dev libgtk-3-dev libxinerama-dev libx11-dev libxdamage-dev libxcomposite-dev libxrender-dev libxrandr-dev librsvg2-dev libstartup-notification0-dev
+```
+    
+```
+sudo apt install tint2
+```
+    
+**Start tins on startup echo this/into `autostart`
+    
+```
+tint2 &
+    
+```
+* tint2 is the lightest bar that there is / is more lightwey than polybar and 100% customizable. [Your choice is all up to you]
+
+# Best Themes for tint2
+
+* Create a directory inside in your home folder
+    
+```
+~/.config
+```
+
+```
+mkdir -p ~/.config/tint2
+```
+    
+Then just clone the repository, which I separated all previously, and move to ~/.config/tint2/
+    
+```
+git clone https://github.com/terroo/tint2-themes
+cd tint2-themes
+mv * ~/.config/tint2/
+```
+
+To test use the tint2 command with the -c parameter and the path of the Tint2 configuration file(tint2rc), example:
+    
+```
+tint2 -c ~/.config/tint2/livia/livia.tint2rc
+```
+
+If you want to enable(make your life easier!) for every time you log into Openbox, add to your `~/.config/openbox/autostart` the line:
+    
+```
+tint2 -c ~/.config/tint2/livia/livia.tint2rc 
+```
+ 
+* Im using polybar now-days, but i have used tint2 because consumes very few resources[less than polybar] / so your choice is fully your.
     
  
   
