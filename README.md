@@ -58,7 +58,7 @@ sudo apt install fonts-material-design-icons-iconfont
 
 3.) Run the command `fc-cache -fv` to manually rebuild the font cache.
 
-  
+ * Is very important to have Iosevka Nerd Font or Hack Nerd Font this are polybar dependencies, after that choose a font as your liking.
   
  ## Wallpaper manager
   
