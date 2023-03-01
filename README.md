@@ -44,6 +44,7 @@ sudo snap install lsd
 sudo apt install bat
 sudo apt install kitty
 sudo apt install rofi
+sudo apt install mpd
 
 ```
   
@@ -152,6 +153,8 @@ bash ~/.config/polybar/launch.sh --hack
 
 [kitty-themes](https://github.com/dexpota/kitty-themes)
   
+**in case that you don't have this archives simply create then***
+  
 ```
 cd
 cd .config
@@ -167,10 +170,8 @@ include myconf.conf
 ```
 touch myconf.conf
 ```
-  
-  
-  
-  
+* Cool, now go and choose a theme from dexpotas repo and just paste it into myconf.conf
+   
   
 * Im using DotGov as theme.  
   
