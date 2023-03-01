@@ -1,4 +1,4 @@
-                                                       ☣️ **Spanner Machine** ☣️ 
+☣️ **Spanner Machine** ☣️ 
 
 
 # ⚒️ Hacking Environment Based on Openbox ⚒️
@@ -24,7 +24,7 @@
 
 * 🗿 My custom of what y use every day for 💉 hacking and threat hunting 🔫 is based on Debian/Parrot Os ↪️ Openbox tilling window*
 
-                                              ↘️↘️↘️↘️↘️↘️↘️`Why openbox`↘️↘️↘️↘️↘️↘️↘️
+↘️↘️↘️↘️↘️↘️↘️`Why openbox`↘️↘️↘️↘️↘️↘️↘️
 
 ### 🕶️ Openbox is the most lightweight tilling window [openbox offers you the freedom 🕶️ to work with shortcuts or mouse, your choice is your choice 🏆
 
