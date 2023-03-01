@@ -533,10 +533,36 @@ tint2 -c ~/.config/tint2/livia/livia.tint2rc
   
 
 <h4 align="center">☣️ Shortcuts [some of it] ☣️</h4>
-    # Aplicaccion shortcuts laucnhers #
-    (W) Super-key/Win-key + t = kitty
-    (W) Super-key/Win-key + p = brave browser
-    (W) Super-key/Win-key + o = caja
-    (W) Super-key/Win-key + i = flameshot
-    (W) Super-key/Win-key + u = geany
-    (W) Super-key/Win-key + y = vscode
+
+     Aplicaccion shortcuts launchers
+    
+   * (W) Super-key/Win-key + t = kitty
+   * (W) Super-key/Win-key + p = brave browser
+   * (W) Super-key/Win-key + o = caja
+   * (W) Super-key/Win-key + i = flameshot
+   * (W) Super-key/Win-key + u = geany
+   * (W) Super-key/Win-key + y = vscode
+    
+    Launcher
+    
+   * (W) Super-key/Win-key + m = rofi
+   * (W) Super-key/Win-key + n = rofi show window
+   * (W) Super-key/Win-key + b = rofi-ssh
+    
+    Desktops
+    
+   * (W) Super-key/Win-key + 1 = Desktop 1
+   * (W) Super-key/Win-key + 2 = Desktop 2
+   * (W) Super-key/Win-key + 3 = Desktop 3
+   * (W) Super-key/Win-key + 4 = Desktop 4
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
