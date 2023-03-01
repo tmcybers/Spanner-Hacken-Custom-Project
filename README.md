@@ -32,11 +32,28 @@
 # ⚒️ My||Hacking||Environment|||Openbox||Based ⚒️
 
 
-# Important #
-  `Constant development and updating`
+# Important for You #
 
-  `Future changes will be applied both to appearance and to further automate the hacking and development work`
- 
+  `This repo is in Constant Development and Updates`
+
+  `Future changes will be applied both to Appearance/Custom and to further / Automate the Hacking and Development work, will include tools and scripts for:`
+  ```
+  * targets/
+  * dirs/
+  * reports/
+  * binary/
+  * reversing/
+  * malware/
+  * threathunting/
+  * investigation tools/
+  * osint/
+  * checking reputation/
+  * sandboxs/
+  * vunlerabilty DBS/
+  * cheat sheets/
+  
+  * and more, stay ⚔️ Hacken ⚔️!
+ ```
 
 
 * 🗿 My custom of what y use every day for 💉 hacking and threat hunting 🔫 is based on Debian/Parrot Os ↪️ Openbox tilling window*
@@ -50,7 +67,7 @@
   
   
   
-  ## Instalation proceed
+  ## ⚒️ Instalation proceed ⚒️
 ```
 sudo apt update
 sudo parrot-upgrade
@@ -67,7 +84,7 @@ sudo apt install fonts-material-design-icons-iconfont
 
 ```
 
-## Fonts [very important]
+## 📑 Fonts 📑 [very important]
   
 1.) Download some [Nerd Fonts](https://www.nerdfonts.com/)
 
@@ -77,7 +94,7 @@ sudo apt install fonts-material-design-icons-iconfont
 
  * Is very important to have Iosevka Nerd Font or Hack Nerd Font this are polybar dependencies, after that choose a font as your liking.
   
- ## Wallpaper manager
+ ## 🗿 Wallpaper manager 🗿
   
 ```
 sudo apt install nitrogen
@@ -129,7 +146,7 @@ bash ~/.config/polybar/launch.sh --forest
 * `In this folder you must also find the rc.xml file, which is the shortcuts file that we are going to tune with our personal shortcuts later on`
   
 
-## Polybar TUN!!nG!
+## 💊 Polybar TUN!!nG! 💊
   
 [Polybar-themes](https://github.com/adi1090x/polybar-themes)
  
@@ -186,7 +203,7 @@ bash ~/.config/polybar/launch.sh --hack
 **Paste this comand into `autostart` that we have create at the start.
   
  
-## Kitty TUN!!nG!
+## 💊 Kitty TUN!!nG! 💊
 
 [kitty-themes](https://github.com/dexpota/kitty-themes)
   
@@ -213,8 +230,10 @@ touch myconf.conf
    
   
 * Im using DotGov as theme.  
+  
+  * Kitty shortcuts here: (https://sw.kovidgoyal.net/kitty/overview/)
 
-#### Zsh || Powerlevel10k for kitty
+#### 🏹 Zsh || Powerlevel10k for kitty 🏹
   
 
 **Installl zsh**
@@ -262,7 +281,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 More themes available for oh-my-zsh in the following link [ohmyzsh-themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
 
-#### POWERLEVEL10K
+#### 🩸 POWERLEVEL10K 🩸
   
 **To install powerlevel10k we must execute the following command**
   
@@ -299,7 +318,7 @@ zsh-autosuggestions
 ```
   
   
-## Picom transparency TUN!!nG!
+## 🔱 Picom transparency TUN!!nG! 🔱
 
 ```
 cd .config
@@ -313,7 +332,7 @@ geany picom.conf
 [picom sample](https://github.com/yshui/picom/blob/next/picom.sample.conf)
   
   
-## Mosaic Windows Tilling [CTRL+1,2,3,4,45,5,6,7,8,9] 
+## 💻 Mosaic Windows Tilling [CTRL+1,2,3,4,45,5,6,7,8,9] 💻
  
 * Open rc.xml , and just paste this code, save it, and then do right click and ReConfigure openbox.
   
@@ -429,11 +448,11 @@ geany picom.conf
   
 
   
-## Custom Shortcuts
+##  🕶️ Custom Shortcuts 🕶️
   
 * rc.xml
   
-* Example
+* Example 📖
   
 ```
      <keybind key="W-t">
@@ -448,13 +467,13 @@ geany picom.conf
     
  #### For the Flameshot shortcut Is Having an issue. But calling `flameshot gui` like this, as <command> it shows.  
 
- * Flameshot is the best tool for reports/write ups.  
+ * Flameshot 📗 is the best tool for reports/write ups 📗  
     
 
 
     
     
-# Opcional Things for TUN!!nG!
+# 💎 Opcional Things for TUN!!nG! 💎
     
 ## Conky 
     
@@ -532,9 +551,9 @@ tint2 -c ~/.config/tint2/livia/livia.tint2rc
   
   
 
-<h4 align="center">☣️ Shortcuts [some of it] ☣️</h4>
+<h4 align="center">⌨️ Shortcuts (Some of it) ⌨️</h4>
 
-     Aplicaccion shortcuts launchers
+     ⌨️ Aplicaccion shortcuts launchers ⌨️
     
    * (W) Super-key/Win-key + t = kitty
    * (W) Super-key/Win-key + p = brave browser
@@ -543,13 +562,13 @@ tint2 -c ~/.config/tint2/livia/livia.tint2rc
    * (W) Super-key/Win-key + u = geany
    * (W) Super-key/Win-key + y = vscode
     
-    Launcher
+    ⌨️ System Launcher ⌨️
     
    * (W) Super-key/Win-key + m = rofi
    * (W) Super-key/Win-key + n = rofi show window
    * (W) Super-key/Win-key + b = rofi-ssh
     
-    Desktops
+    ⌨️ Desktops ⌨️
     
    * (W) Super-key/Win-key + 1 = Desktop 1
    * (W) Super-key/Win-key + 2 = Desktop 2
