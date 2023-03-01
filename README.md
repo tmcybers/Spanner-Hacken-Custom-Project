@@ -576,6 +576,13 @@ tint2 -c ~/.config/tint2/livia/livia.tint2rc
    * (W) Super-key/Win-key + 3 = Desktop 3
    * (W) Super-key/Win-key + 4 = Desktop 4
     
+    ⌨️ Window Tilling ⌨️
+    
+   * (W) Super-key/Win-key + ➡️ = till windows to right
+   * (W) Super-key/Win-key + ⬅️ = till window to left
+   * (W) Super-key/Win-key + ↗️ = till to bellow boottom dektop aslo full screen of the window
+   * (W) Super-key/Win-key + ↘️ = till to down of the desktop (floating window)
+    
     
 ---
     
