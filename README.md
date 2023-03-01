@@ -46,8 +46,19 @@ sudo apt install kitty
 sudo apt install rofi
 sudo apt install mpd
 sudo apt install flameshot
+sudo apt install fonts-material-design-icons-iconfont
 
 ```
+
+## Fonts [very important]
+  
+1.) Download some [Nerd Fonts](https://www.nerdfonts.com/)
+
+2.) We need the fonts to be available system-wide, you'll need to copy them to `/usr/local/share/fonts` and reboot / or manually rebuild the font cache with `fc-cache -fv`
+
+3.) Run the command `fc-cache -fv` to manually rebuild the font cache.
+
+  
   
  ## Wallpaper manager
   
@@ -84,11 +95,17 @@ geany autostart
 ### This is like mine is, it like an example, will add more later.
   
 ```
+# Launch nitrogen
 nitrogen --restore &
 
-picom &
-
+# Set keyboard to ES or US
 setxkbmap us
+  
+#Launch Picom
+picom &
+  
+## Launch Polybar
+bash ~/.config/polybar/launch.sh --forest
   
 ```
   
@@ -187,7 +204,8 @@ geany picom.conf
 ```
 * Into picom.conf just paste my conf, and modelling to your liking.
   
-  
+* Sample here:
+[picom sample](https://github.com/yshui/picom/blob/next/picom.sample.conf)
   
   
 ## Mosaic windows tilling [CTRL+1,2,3,4,45,5,6,7,8,9] 
@@ -300,7 +318,7 @@ geany picom.conf
     </keybind>
 
 ```
-> open some window or terminal and try it.
+> Open some window or terminal and try it.
 ## How does this work? 
 >>> Hold down the super key or Win key in windows is usually called like this, and with the right and left arrows play with the window to your liking
   
@@ -323,7 +341,7 @@ geany picom.conf
     
 * Im using custom shortcuts to open every applicaccion, and tilling it.
     
- #### For the Flameshot shortcut Is Having an issue. But calling `flameshot gui` like command it shows.  
+ #### For the Flameshot shortcut Is Having an issue. But calling `flameshot gui` like this, as <command> it shows.  
 
  * Flameshot is the best tool for reports/write ups.  
     
