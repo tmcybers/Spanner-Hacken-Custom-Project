@@ -583,7 +583,7 @@ tint2 -c ~/.config/tint2/livia/livia.tint2rc
    * (W) Super-key/Win-key + ↗️ = till to bellow boottom dektop aslo full screen of the window
    * (W) Super-key/Win-key + ↘️ = till to down of the desktop (floating window)
     
-    
+    *rc.xml is the shortcut/master of all unity system
 ---
     
     
