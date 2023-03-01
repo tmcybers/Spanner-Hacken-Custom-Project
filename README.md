@@ -533,10 +533,10 @@ tint2 -c ~/.config/tint2/livia/livia.tint2rc
   
 
 <h4 align="center">☣️ Shortcuts [some of it] ☣️</h4>
-    
-    (W) Superkey/Winkey + t = Kitty
-    (W) Superkey/Winkey + t = Kitty
-    (W) Superkey/Winkey + t = Kitty
-    (W) Superkey/Winkey + t = Kitty
-    (W) Superkey/Winkey + t = Kitty
-    (W) Superkey/Winkey + t = Kitty
+    # Aplicaccion shortcuts laucnhers #
+    (W) Super-key/Win-key + t = kitty
+    (W) Super-key/Win-key + p = brave browser
+    (W) Super-key/Win-key + o = caja
+    (W) Super-key/Win-key + i = flameshot
+    (W) Super-key/Win-key + u = geany
+    (W) Super-key/Win-key + y = vscode
