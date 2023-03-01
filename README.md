@@ -1,4 +1,4 @@
-☣️☣️☣️☣️☣️☣️☣️☣️☣️☣️☣️ **Spanner Machine** ☣️☣️☣️☣️☣️☣️☣️☣️☣️☣️☣️☣️
+☣️☣️☣️☣️☣️☣️☣️☣️☣️☣️☣️ **Spanner Hacken Machine** ☣️☣️☣️☣️☣️☣️☣️☣️☣️☣️☣️☣️
 
 ---
 
@@ -23,7 +23,7 @@
 ![2023-03-01_12-31](https://user-images.githubusercontent.com/97669969/222127630-ce5bda78-0b41-4f32-8edc-d677e2b7a5d8.png)
 ---
 
-# ⚒️ My Hacking Environment Openbox||Based ⚒️
+# ⚒️⚒️⚒️⚒️ My||Hacking||Environment|||Openbox||Based ⚒️⚒️⚒️⚒️
 
 
 
@@ -117,7 +117,7 @@ bash ~/.config/polybar/launch.sh --forest
 * `In this folder you must also find the rc.xml file, which is the shortcuts file that we are going to tune with our personal shortcuts later on`
   
 
-## Polybar Tun!!ing
+## Polybar TUN!!nG!
   
 [Polybar-themes](https://github.com/adi1090x/polybar-themes)
  
@@ -174,7 +174,7 @@ bash ~/.config/polybar/launch.sh --hack
 **Paste this comand into `autostart` that we have create at the start.
   
  
-## Kitty Tun!!!ng
+## Kitty TUN!!nG!
 
 [kitty-themes](https://github.com/dexpota/kitty-themes)
   
@@ -287,7 +287,7 @@ zsh-autosuggestions
 ```
   
   
-## Picom transparency Tun!!!ng 
+## Picom transparency TUN!!nG!
 
 ```
 cd .config
@@ -301,7 +301,7 @@ geany picom.conf
 [picom sample](https://github.com/yshui/picom/blob/next/picom.sample.conf)
   
   
-## Mosaic windows tilling [CTRL+1,2,3,4,45,5,6,7,8,9] 
+## Mosaic Windows Tilling [CTRL+1,2,3,4,45,5,6,7,8,9] 
  
 * Open rc.xml , and just paste this code, save it, and then do right click and ReConfigure openbox.
   
@@ -463,6 +463,7 @@ conky &
     
 
 ### Panel tint2
+
 `Some dependencies in case you miss something`
     
 ```
