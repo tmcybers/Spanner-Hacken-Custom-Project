@@ -147,8 +147,151 @@ bash ~/.config/polybar/launch.sh --hack
   
 **Paste this comand into `autostart` that we have create at the start.
   
+ 
+## Kitty Tun!!!ng
+
+[kitty-themes](https://github.com/dexpota/kitty-themes)
+  
+```
+cd
+cd .config
+cd kitty
+touch kitty.conf
+geany kitty.conf
+```
+* paste this into kitty.conf 
+``` 
+include myconf.conf
+```
+  
+```
+touch myconf.conf
+```
+  
+  
+  
+  
+  
+* Im using DotGov as theme.  
+  
+  
+  
+  
+## Mosaic windows tilling [CTRL+1,2,3,4,45,5,6,7,8,9] 
+ 
+* Open rc.xml , and just paste this code, save it, and then do right click and ReConfigure openbox.
+  
+ ```
+
+<keybind key="C-1">
+  <action name="UnmaximizeFull"/>
+  <action name="MoveResizeTo">
+    <x>0</x>
+    <y>-0</y>
+    <width>50%</width>
+    <height>50%</height>
+  </action>
+</keybind>
+    <keybind key="C-2">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="C-3">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="C-4">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="C-5">
+      <action name="MaximizeFull"/>
+    </keybind>
+    <keybind key="C-6">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="C-7">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="C-8">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="C-9">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdgeEast"/>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdgeWest"/>
+    </keybind>
+    <keybind key="W-Up">
+      <action name="MaximizeFull"/>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>80%</width>
+        <height>80%</height>
+      </action>
+      <action name="MoveToCenter"/>
+    </keybind>
+
+```
+> open some window or terminal and try it.
+## How does this work? 
+>>> Hold down the super key or Win key in windows is usually called like this, and with the right and left arrows play with the window to your liking
+  
+  
   
 
-  
-  
   
