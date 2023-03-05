@@ -81,6 +81,7 @@ sudo apt install rofi
 sudo apt install mpd
 sudo apt install flameshot
 sudo apt install fonts-material-design-icons-iconfont
+sudo apt install fonts-materialdesignicons-webfont
 
 ```
 
