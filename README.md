@@ -310,14 +310,20 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-**Paste this into /.zhsrc**
-```~/.zshrc
+**Paste this into ~/.zhsrc**
+  
 ```
+  geany ~/.zshrc
+  
 ```
+  
+```
+  
 plugins=(git
 zsh-syntax-highlighting
 zsh-autosuggestions
 )
+  
 ```
   
   
