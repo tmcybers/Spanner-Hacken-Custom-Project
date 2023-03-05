@@ -36,7 +36,7 @@
 
   `This repo is in Constant Development and Updates`
 
-  `Future changes will be applied both to Appearance/Custom and to further / Automate the Hacking and Development work, will include tools and scripts for:`
+  `Future changes will be applied both to Appearance/Custom and to further /Automate the Hacking and Development work, will include tools and scripts for:`
   ```
   * targets/
   * dirs/
@@ -73,7 +73,7 @@ sudo apt update
 sudo parrot-upgrade
 sudo apt install openbox
 sudo apt install obconf lxinput
-sudo apt install snapd (snap discontinued, use sudo dpkg -i lsd_0.23.1_amd64.deb and get .deb file from release page)https://github.com/Peltoche/lsd
+sudo apt install snapd (snap discontinued, use sudo dpkg -i lsd_0.23.1_amd64.deb and get .deb file from release page)[https://github.com/Peltoche/lsd]
 sudo apt install mpd
 sudo apt install flameshot
 sudo apt install fonts-material-design-icons-iconfont
@@ -474,10 +474,33 @@ geany picom.conf
 
  * Flameshot 📗 is the best tool for reports/write ups 📗  
     
-
-
     
     
+# 🎨 Shell TUN!!nG!+Extra! 🎨
+
+**Lsd**
+    
+* Ubuntu/Debian based distro
+    
+```
+use sudo dpkg -i lsd_0.23.1_amd64.deb and get .deb file from release page 
+```
+    
+[lsd releases](https://github.com/Peltoche/lsd/releases/)
+    
+![2023-03-05_20-35](https://user-images.githubusercontent.com/97669969/222982461-55c12de7-5da5-4456-bda5-f11ae05c0e67.png)
+
+
+**batcat**
+    
+```
+sudo apt install batcat
+    
+```
+ 
+![2023-03-05_20-55](https://user-images.githubusercontent.com/97669969/222982692-bfdd1ef5-df0c-4bab-b348-55e92efb28eb.png)
+
+ 
 # 💎 Opcional Things for TUN!!nG! 💎
     
 ## Conky 
