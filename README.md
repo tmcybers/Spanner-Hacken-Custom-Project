@@ -73,11 +73,7 @@ sudo apt update
 sudo parrot-upgrade
 sudo apt install openbox
 sudo apt install obconf lxinput
-sudo apt install snapd
-sudo snap install lsd
-sudo apt install bat
-sudo apt install kitty
-sudo apt install rofi
+sudo apt install snapd (snap discontinued, use sudo dpkg -i lsd_0.23.1_amd64.deb and get .deb file from release page)https://github.com/Peltoche/lsd
 sudo apt install mpd
 sudo apt install flameshot
 sudo apt install fonts-material-design-icons-iconfont
