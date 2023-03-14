@@ -616,7 +616,12 @@ tint2 -c ~/.config/tint2/livia/livia.tint2rc
     
     
     
-    
+
+
+
+
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Courier+new&color=%23808080&size=30&width=1000&duration=6969&lines=I+am+not+responsible+for+[the+misuse+of+my+tools]!)](https://git.io/typing-svg)
     
     
     
