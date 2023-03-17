@@ -105,9 +105,9 @@ sudo apt install lxappearance lxappearance-obconf
 
 ```
   
-## Wallpapers for Nitrogen
+## Wallpapers for  Hacken Machine [Nitrogen]
 
-[positron-dream nord themes]( https://imgur.com/a/qrgtyDU)
+[Hacken Machine Nord Pallete Wallpapers ☬ NoRD Pallete ßÿ тм¢увєя ☬](https://github.com/tmcybers/Hacken-Machine-Nord-Pallete-Wallpapers)
   
   
 # Important Step! we are going to create the `autostart` , so that everything starts at startup.
