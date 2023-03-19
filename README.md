@@ -232,7 +232,7 @@ touch myconf.conf
 **Atom theme** (https://github.com/dexpota/kitty-themes/blob/master/themes/Atom.conf)
 
 ```background            #161718
-background_opacity    0.7
+background_opacity    0.9
 foreground            #c4c8c5
 cursor                #d0d0d0
 selection_background  #444444
@@ -254,7 +254,7 @@ color7                #dfdfdf
 color15               #dfdfdf
 selection_foreground #161718
 ```
-* I had opacity set  to 0.7 set it to your tasteª.
+* I had opacity set  to 0.9 set it to your tasteª.
   
   * Kitty shortcuts here: (https://sw.kovidgoyal.net/kitty/overview/)
 
