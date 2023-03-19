@@ -223,10 +223,38 @@ include myconf.conf
 ```
 touch myconf.conf
 ```
+
 * Cool, now go and choose a theme from dexpotas repo and just paste it into myconf.conf
    
   
-* Im using DotGov as theme.  
+* Im using DotGov as theme and Atom also, i switch every time i change my wallpapers from nord pallete (https://github.com/tmcybers/Hacken-Machine-Nord-Pallete-Wallpapers)
+
+**Atom theme** (https://github.com/dexpota/kitty-themes/blob/master/themes/Atom.conf)
+
+```background            #161718
+background_opacity    0.7
+foreground            #c4c8c5
+cursor                #d0d0d0
+selection_background  #444444
+color0                #000000
+color8                #000000
+color1                #fc5ef0
+color9                #fc5ef0
+color2                #86c38a
+color10               #94f936
+color3                #ffd6b1
+color11               #f5ffa7
+color4                #85befd
+color12               #95cbfe
+color5                #b9b5fc
+color13               #b9b5fc
+color6                #85befd
+color14               #85befd
+color7                #dfdfdf
+color15               #dfdfdf
+selection_foreground #161718
+```
+* I had opacity set  to 0.7 set it to your tasteª.
   
   * Kitty shortcuts here: (https://sw.kovidgoyal.net/kitty/overview/)
 
