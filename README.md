@@ -535,17 +535,17 @@ sudo apt install batcat
  
 # 💎 Opcional Things for TUN!!nG! 💎
     
-## Conky 
-    
-```
-sudo apt install conky
-```
+# Conky 
 
-#### Conky Themes
+![conky_hacken](https://user-images.githubusercontent.com/97669969/226741424-bd438e23-6ba1-47ce-a485-1e5dc6ab6e88.png)
+
+* Conky Hacken is Released (https://github.com/tmcybers/Conky-Hacken)
+
+#### Optional [Conky Themes]
 
 [conky-themes](https://github.com/addy-dclxvi/conky-theme-collections)
 
-**Start conky on startup echo this into `autostart`
+**Start conky on startup echo this into `autostart`**
     
 ```
 conky &
