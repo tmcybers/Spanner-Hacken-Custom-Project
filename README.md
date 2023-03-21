@@ -363,6 +363,10 @@ geany picom.conf
   
 * Sample here:
 [picom sample](https://github.com/yshui/picom/blob/next/picom.sample.conf)
+
+# Update 2023
+
+**I only use `background_opacity 0.9` in Kitty. Picom is Disabled**
   
   
 ## 💻 Mosaic Windows Tilling [CTRL+1,2,3,4,45,5,6,7,8,9] 💻
