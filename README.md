@@ -526,8 +526,7 @@ use sudo dpkg -i lsd_0.23.1_amd64.deb and get .deb file from release page
 **batcat**
     
 ```
-sudo apt install batcat
-    
+sudo apt install bat   
 ```
  
 ![2023-03-05_20-55](https://user-images.githubusercontent.com/97669969/222982692-bfdd1ef5-df0c-4bab-b348-55e92efb28eb.png)
