@@ -73,7 +73,7 @@ sudo apt update
 sudo parrot-upgrade
 sudo apt install openbox
 sudo apt install obconf lxinput
-sudo apt install snapd (snap discontinued, use sudo dpkg -i lsd_0.23.1_amd64.deb and get .deb file from release page)[https://github.com/Peltoche/lsd]
+sudo apt install snapd (snap discontinued)
 sudo apt install mpd
 sudo apt install flameshot
 sudo apt install fonts-material-design-icons-iconfont
@@ -95,14 +95,12 @@ sudo apt install fonts-materialdesignicons-webfont
   
 ```
 sudo apt install nitrogen
-  
 ```
   
 ## Manager for Menu/Custom Themes and Icons
   
 ```
 sudo apt install lxappearance lxappearance-obconf
-
 ```
   
 ## Wallpapers for  Hacken Machine [Nitrogen]
@@ -111,6 +109,7 @@ sudo apt install lxappearance lxappearance-obconf
   
   
 # Important Step! we are going to create the `autostart` , so that everything starts at startup.
+
 ---
 
 ##### If just in case some of the directories you have, then go to the next level.
@@ -121,7 +120,6 @@ mkdir openbox
 cd openbox
 touch autostart 
 geany autostart
-  
 ```
 ### Example, will add more later.
   
@@ -135,14 +133,22 @@ setxkbmap us
 #Launch Picom
 picom &
   
-## Launch Polybar
-bash ~/.config/polybar/launch.sh --forest
-  
+## Launch Polybar 
+bash ~/.config/polybar/launch.sh --forest 
 ```
-  
 * `In this folder you must also find the rc.xml file, which is the shortcuts file that we are going to tune with our personal shortcuts later on`
-  
 
+*This # is a comment, into autostart*
+
+### Rofi Launcher
+
+```
+sudo apt install rofi
+```
+
+#### Ok now restart, you can do it simply like this `kill -9 -1` now everything is black don't be scared, don't worry open a terminal with the right click terminal emulater, type nitrogen and upload to nitrogen the wallapers that you downloaded `the pallete nord`from this repo or others as your choice.
+
+  
 ## 💊 Polybar TUN!!nG! 💊
   
 [Polybar-themes](https://github.com/adi1090x/polybar-themes)
